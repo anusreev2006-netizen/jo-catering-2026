@@ -1,0 +1,171 @@
+{
+  "menuItems": [
+    {
+      "id": "1",
+      "name": "Paneer Tikka",
+      "category": "Starters",
+      "price": 250,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR48cd-ue49NLIzUfgD_w0U7WPGGQw_cWat_PzPKCyeiHoqxOKccrZJn0A&s=10",
+      "description": "Chargrilled cottage cheese marinated in Indian spices.",
+      "type": "veg"
+    },
+    {
+      "id": "2",
+      "name": "Chicken Seekh Kebab",
+      "category": "Starters",
+      "price": 320,
+      "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400",
+      "description": "Minced chicken skewers grilled to smoky perfection.",
+      "type": "non-veg"
+    },
+    {
+      "id": "3",
+      "name": "Butter Chicken",
+      "category": "Main Course",
+      "price": 380,
+      "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400",
+      "description": "Creamy tomato-based curry with tender chicken pieces.",
+      "type": "non-veg"
+    },
+    {
+      "id": "4",
+      "name": "Dal Makhani",
+      "category": "Main Course",
+      "price": 260,
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400",
+      "description": "Slow-cooked black lentils in a rich buttery gravy.",
+      "type": "veg"
+    },
+    {
+      "id": "5",
+      "name": "Gulab Jamun",
+      "category": "Desserts",
+      "price": 120,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB_NXpFDca_x1yQGD4t6UDBgIw4dnxv9eBFfrwoQWGQwOOrN0RTSSzHEfR&s=10",
+      "description": "Soft milk dumplings soaked in rose-flavored sugar syrup.",
+      "type": "veg"
+    },
+    {
+      "id": "6",
+      "name": "Masala Chai",
+      "category": "Beverages",
+      "price": 60,
+      "image": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400",
+      "description": "Spiced Indian tea brewed with milk and aromatic spices.",
+      "type": "veg"
+    }
+  ],
+  "packages": [
+    {
+      "id": "1",
+      "name": "Wedding Gold",
+      "category": "Wedding",
+      "price": 50000,
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=500",
+      "description": "A premium multi-course wedding menu with live counters and elegant plating.",
+      "features": [
+        "Live cooking stations",
+        "5-course meal",
+        "Dedicated event manager",
+        "Up to 200 guests"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Corporate Essentials",
+      "category": "Corporate",
+      "price": 15000,
+      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500",
+      "description": "Professional catering for meetings, conferences, and office events.",
+      "features": [
+        "Buffet-style service",
+        "Tea/coffee station",
+        "Packed lunch boxes",
+        "Up to 50 guests"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Party Delight",
+      "category": "Party",
+      "price": 20000,
+      "image": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=500",
+      "description": "Fun, flavorful spreads perfect for birthdays and celebrations.",
+      "features": [
+        "Live BBQ counter",
+        "Dessert bar",
+        "Custom theme decor",
+        "Up to 80 guests"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "name": "Arun Kumar",
+      "email": "arunkumar@gmail.com",
+      "phone": "1234567890",
+      "eventDate": "2026-08-13",
+      "guestCount": "50",
+      "package": "Wedding Gold",
+      "message": "",
+      "id": "Cgq7fEbrWOU"
+    },
+    {
+      "name": "Ram",
+      "email": "Ram@gmail.com",
+      "phone": "0987654321",
+      "eventDate": "2026-08-25",
+      "guestCount": "100",
+      "package": "Wedding Gold",
+      "message": "",
+      "id": "o4jMXI3xcvo"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "1",
+      "category": "Wedding",
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=500",
+      "title": "Royal Wedding Feast"
+    },
+    {
+      "id": "2",
+      "category": "Wedding",
+      "image": "https://images.unsplash.com/photo-1465146633011-14f8e0781093?w=500",
+      "title": "Garden Wedding Setup"
+    },
+    {
+      "id": "3",
+      "category": "Corporate",
+      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500",
+      "title": "Conference Lunch"
+    },
+    {
+      "id": "4",
+      "category": "Corporate",
+      "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=500",
+      "title": "Office Event Catering"
+    },
+    {
+      "id": "5",
+      "category": "Party",
+      "image": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=500",
+      "title": "Birthday Celebration"
+    },
+    {
+      "id": "6",
+      "category": "Party",
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=500",
+      "title": "Themed Party Spread"
+    }
+  ],
+  "enquiries": [
+    {
+      "name": "Karthik",
+      "email": "karthik@gmail.com",
+      "message": "asdfghj",
+      "id": "Z9OEu7UZ7AQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
