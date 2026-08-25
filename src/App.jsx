@@ -12,6 +12,12 @@ import Contact from './pages/Contact'
 import Booking from './pages/Booking'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import AdminLogin from './admin/AdminLogin'
+import AdminDashboard from './admin/AdminDashboard'
+import ProtectedRoute from './components/ProtectedRoute'
+import ManageMenu from './admin/ManageMenu'
+import ManagePackages from './admin/ManagePackages'
+
 
 function App() {
 
@@ -28,6 +34,31 @@ function App() {
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/booking' element={<Booking/>}/>
+     <Route path="/admin/login" element={<AdminLogin />} />
+        <Route
+          path="/admin/dashboard"
+          element={
+            <ProtectedRoute>
+              <AdminDashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/admin/menu"
+          element={
+            <ProtectedRoute>
+              <ManageMenu />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/admin/packages"
+          element={
+            <ProtectedRoute>
+              <ManagePackages />
+            </ProtectedRoute>
+          }
+        />
    </Routes>
    <Footer/>
     <ToastContainer position="top-right" autoClose={3000} />

@@ -53,6 +53,15 @@
       "image": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400",
       "description": "Spiced Indian tea brewed with milk and aromatic spices.",
       "type": "veg"
+    },
+    {
+      "name": "Pongal",
+      "category": "Starters",
+      "price": "40",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2DxdmHvUynodhBHXli5Z_5DQ_c1iKCCxghU8CvLAnvlqcHntnvrtJbA8&s=10",
+      "description": "",
+      "type": "veg",
+      "id": "tq8Q3MPDFkQ"
     }
   ],
   "packages": [
@@ -97,6 +106,20 @@
         "Custom theme decor",
         "Up to 80 guests"
       ]
+    },
+    {
+      "name": "Engagment",
+      "category": "Engagement",
+      "price": 40000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoqx0j0J4NBWfxhHsSnZLQurFPNbHpngMf0511vyfE7A&s=10",
+      "description": "",
+      "features": [
+        "Live cooking stations",
+        "5-course meal",
+        "Dedicated event manager",
+        "Up to 200 guests"
+      ],
+      "id": "H5lfR5Suqws"
     }
   ],
   "bookings": [
@@ -119,6 +142,16 @@
       "package": "Wedding Gold",
       "message": "",
       "id": "o4jMXI3xcvo"
+    },
+    {
+      "name": "Divya",
+      "email": "divya@gmail.com",
+      "phone": "7667855890",
+      "eventDate": "2026-08-28",
+      "guestCount": "40",
+      "package": "Corporate Essentials",
+      "message": "",
+      "id": "p4Y_3fInR48"
     }
   ],
   "gallery": [

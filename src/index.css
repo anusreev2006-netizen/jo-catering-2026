@@ -4,3 +4,50 @@
   box-sizing: border-box;
   font-family: 'Playfair Display', serif;
 }
+:root {
+  --bs-primary: #1B4332;
+  --bs-primary-rgb: 27, 67, 50;
+  --bs-secondary: #C9A227;
+  --bs-secondary-rgb: 201, 162, 39;
+  --bs-dark: #14281D;
+  --bs-dark-rgb: 20, 40, 29;
+  --bs-light: #FBF8F1;
+  --bs-light-rgb: 251, 248, 241;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+  background-color: #14332A;
+  border-color: #14332A;
+}
+
+.btn-outline-primary {
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+.bg-dark {
+  background-color: var(--bs-dark) !important;
+}
+
+.badge.bg-secondary {
+  background-color: var(--bs-secondary) !important;
+  color: #14281D;
+}
+
+.navbar-brand {
+  color: var(--bs-primary) !important;
+}
