@@ -10,6 +10,8 @@ import {
   Legend,
 } from 'chart.js'
 import api from '../data/api'
+import { Link } from 'react-router-dom'
+
 
 ChartJS.register(ArcElement, BarElement, CategoryScale, LinearScale, Tooltip, Legend)
 
@@ -142,13 +144,13 @@ function AdminDashboard() {
       {/* Quick Links */}
       <div className="row g-3 mt-4">
         <div className="col-md-4">
-          <a href="/admin/menu" className="btn btn-primary w-100 py-3">Manage Menu</a>
+          <Link to="/admin/menu" className="btn btn-primary w-100 py-3">Manage Menu</Link>
         </div>
         <div className="col-md-4">
-          <a href="/admin/packages" className="btn btn-primary w-100 py-3">Manage Packages</a>
+          <Link to="/admin/packages" className="btn btn-primary w-100 py-3">Manage Packages</Link>
         </div>
         <div className="col-md-4">
-          <a href="/admin/bookings" className="btn btn-primary w-100 py-3">Manage Bookings</a>
+          <Link to="/admin/bookings" className="btn btn-primary w-100 py-3">Manage Bookings</Link>
         </div>
       </div>
     </div>
