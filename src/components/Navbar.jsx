@@ -1,12 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-
+import logo from '../assets/logo.avif'
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
       <div className="container">
-        <NavLink className="navbar-brand fw-bold" to="/">JO Catering-Service</NavLink>
+        <NavLink className="navbar-brand fw-bold" to="/"> <img src={logo} alt='JO Catering-Service' height="36"/> JO Catering-Service</NavLink>
         <button
           className="navbar-toggler"
           type="button"
